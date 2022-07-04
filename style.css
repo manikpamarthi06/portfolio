@@ -1,0 +1,358 @@
+html {
+    scroll-behavior: smooth;
+    /* cursor: none; */
+    background-color: black;
+    color: red;
+}
+
+.ThirdPage {
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Monochrome-Type-Simple-Background-Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desciption {
+    margin-left: 10px;
+    color: wheat;
+    font-size: 20px;
+}
+
+.topics_p {
+    margin-left: 10px;
+    color: #ccc;
+    font-size: 25px;
+}
+
+.topics {
+    display: flex;
+}
+.solidworks {
+    border-radius: 10%;
+    width: 27%;
+}
+
+.fluid {
+    border-radius: 10%;
+    width: 27%;
+}
+
+.cs {
+    border-radius: 10%;
+    width: 27%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.firstPage {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url("https://i.pinimg.com/564x/07/fb/2e/07fb2eacb95bf14899749033d7998a89.jpg"); */
+    /* background-image: url("https://thumbs.dreamstime.com/b/development-software-engineer-analyzing-code-coffee-mug-programming-developer-computer-screen-cartoon-vector-illustration-237616806.jpg"); */
+    /* background-image: url("https://img.freepik.com/free-photo/software-developer-concept-grow-coding-development-icon-pink-background-language-programming-engineering-minimal-cartoon-sytle-3d-render-illustration_598821-680.jpg"); */
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921__340.jpg"); */
+    /* background-image: url("https://t3.ftcdn.net/jpg/01/70/28/92/360_F_170289223_KNx1FpHz8r5ody9XZq5kMOfNDxsZphLz.jpg"); */
+    /* background-image: url("https://images.unsplash.com/photo-1612383401597-cdfb8bdfa0d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcHV0ZXIlMjBkYXJrfGVufDB8fDB8fA%3D%3D&w=1000&q=80"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_IEXxo_v9ihGn6SDyFgVlBcLblrpwbIp2A&usqp=CAU"); */
+    /* background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg"); */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    background-image: url("https://wallpapercave.com/wp/wp8358478.png");
+    background-color: black;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    right: 25px;
+    top: 50px;
+    justify-content: space-around;
+    border: 1.5px solid red;
+    margin-left: 97%;
+    color: red;
+}
+.secondPage {
+    position:static;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    /* background-image: url("https://timesofindia.indiatimes.com/thumb/msid-86586963,imgsize-43044,width-400,resizemode-4/86586963.jpg"); */
+    /* background-image: url("https://i0.wp.com/www.techjunkie.com/wp-content/uploads/2019/09/Enable-Keyboard-Backlight-Windows-10.jpg?fit=1000%2C666&ssl=1"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTMB3T3gCBkJNMyA0WK3shYobkDNVJniqVew&usqp=CAU"); */
+    /* background-image: url("https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg?cs=srgb&dl=pexels-sathesh-d-698808.jpg&fm=jpg"); */
+    background-image: url("https://wallpapercave.com/wp/wp3855064.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg"); */
+}
+.link {
+    position: relative;
+    top: 160px;
+    font-size: 20px;
+    color: red;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.navBar {
+    width:100%;
+    max-height: 14%;
+    position: fixed;
+    background-color: rgb(35, 4, 4);
+    top: 0px;
+}
+
+.name {
+    font-size: 45px;
+    position: absolute;
+    /* text-align: center; */
+    /* border: 3px solid green; */
+    margin: 50px;
+    margin-top: 200px;
+    /* padding: 35px; */
+    text-shadow: 2px 2px 5px red;
+    margin-top: 100px;
+}
+
+.education {
+    position: relative;
+    top: 160px;
+    font-size: 35px;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.role {
+    position: relative;
+    top: 160px;
+    font-size: 35px;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.location {
+    position: relative;
+    top: 160px;
+    font-size: 33px;
+    text-align: left;
+    margin-left: 50px;
+    color: red;
+}
+
+.paragraph {
+    position: relative;
+    top: 160px;
+    font-size: 25px;
+    text-align: left;
+    color: rgb(115, 190, 30);
+    padding-bottom: 35px;
+    margin-left: 50px;
+}
+
+.span {
+    border: 2px solid yellowgreen;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.intro {
+    font-size: 35px;
+    color: aquamarine;
+}
+
+.partition {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(62, 28, 28);
+}
+
+.s_link {
+    color: red;
+    margin: 8px;
+}
+
+.abt_me_h6 {
+    font-size: 20px;
+    color: red;
+   
+    margin-left: 50px;
+}
+
+.abt_me_div {
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+.name2 {
+    margin: 0px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(239, 149, 149);
+}
+
+.location_h6 {
+    margin-left: 50px;
+    font-size: 25px;
+    color: wheat;
+}
+
+.red {
+    color: red;
+}
+
+.paragraph2 {
+    font-size: 35px;
+    color: wheat;
+    margin-left: 50px;
+}
+
+.navBar2 {
+    width:100%;
+    height: 1%;
+}
+
+.others {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav_details {
+    font-size: 45px;
+    text-align: left;
+    color: brown;
+    margin: 10px;
+    padding-left: 800px;
+}
+
+.nav_links {
+    font-size: 25px;
+    color: red;
+    text-decoration: none;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+/* .anchor {
+    border: 1px solid wheat;
+    background-color: gray;
+    padding: 2px;
+} */
+
+.menu_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    border-top: .5px solid green;
+    color: white;
+}
+
+.s_link {
+    text-decoration: none;
+}
+
+.wheat {
+    color: wheat;
+}
+
+.bullet {
+    list-style-type: none;
+    float: right;
+}
+
+.bullet li {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* ad */
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .footer {
+    width: 100%;
+    position: relative;
+    top: -150px;
+    z-index: -1;
+    filter: blur(8px);
+  }
